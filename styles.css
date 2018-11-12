@@ -18,22 +18,6 @@ body {
   box-shadow: 0 8px 17px 0 rgba(0,0,0,.2), 0 6px 20px 0 rgba(0,0,0,.19);
 }
 
-/*hr {
-  width: 95px;
-  margin: 0 0 30px;
-  border-width: 4px;
-  border-color: #ff4d57;
-}
-
-a {
-  text-decoration: none;
-  color: #252525;
-}
-
-a:hover {
-  cursor: pointer;
-  color: #424250;
-}*/
 /* ---GENERAL--- */
 /* ---GENERAL--- */
 /* ---GENERAL--- */
@@ -148,7 +132,7 @@ ul.dash > li:before {
 
 .sidebar {
   width: 30%;
-  /* background-color: #FFF; */
+  
   background-color: rgb(235, 229, 228);
 }
 
@@ -190,7 +174,6 @@ ul.dash > li:before {
 
 .main-container {
   background-color: #fff;
-  /* background-color: #F0F0F0; */
   width: 70%;
 }
 
@@ -199,7 +182,7 @@ ul.dash > li:before {
   width:100%;
   display:flex;
   justify-content: center;
-  /* background-color: rgb(235, 229, 228); */
+
 }
 
 .headerContent {
@@ -228,38 +211,6 @@ ul.dash > li:before {
 .skills p {
   padding: 0 5px;
 }
-
-
-
-
-
-
-
-
-/* =====================================
-          CONTACT & LINKS
-======================================= */
-
-/*.link-container {
-  background-color: #fff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  margin-bottom: 10px;
-}
-
-.contact-list {
-  color: #252525;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.contact-list > li {
-  display: inline;
-  padding: 10px;
-  border-radius: 2px;
-}
-*/
-
 
 
 /* ---PROJECTS--- */
@@ -307,12 +258,6 @@ ul.dash > li:before {
   margin-top: .5rem;
 }
 
-
-/* a.project-button {color: #fff; text-decoration: none; -webkit-transform: skew(-10deg, 0);}
-a.project-button:hover { color: #fff; background-color: #00add5;}
-a.project-button:hover::after {border-color: #00add5 transparent transparent transparent;} */
-
-
 /* ---EMPLOYMENT--- */
 /* ---EMPLOYMENT--- */
 /* ---EMPLOYMENT--- */
@@ -322,35 +267,3 @@ a.project-button:hover::after {border-color: #00add5 transparent transparent tra
   justify-content: space-between;
 }
 
-/* =====================================
-            GITHUB CORNER LINK
-======================================= */
-
-/*.github-corner:hover .octo-arm {
-  animation: octocat-wave 560ms ease-in-out
-}
-
-@keyframes octocat-wave {
-  0%,
-  100% {
-    transform: rotate(0)
-  }
-  20%,
-  60% {
-    transform: rotate(-25deg)
-  }
-  40%,
-  80% {
-    transform: rotate(10deg)
-  }
-}
-
-@media (max-width:500px) {
-  .github-corner:hover .octo-arm {
-    animation: none
-  }
-  .github-corner .octo-arm {
-    animation: octocat-wave 560ms ease-in-out
-  }
-}
-*/
