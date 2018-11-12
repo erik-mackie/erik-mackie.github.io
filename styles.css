@@ -86,8 +86,7 @@ li {
   margin-left: 10px;
   display: inline-block;
   width: 100%;
-  vertical-align: middl24pxe;
-  /* border-bottom: 4px solid #ff4d57; */
+  vertical-align: middle;
   border-bottom: 4px solid rgb(144, 22, 17);
   overflow: hidden;
   justify-content: space-around;
